@@ -1,0 +1,287 @@
+#submit{
+    background-image: url(Af2.webp);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    opacity: 0.8;
+   
+}
+#form{
+     width: 500px;
+    background-color: rgba(190, 218, 50, 0.5);
+    padding: 20px ;
+    margin:300px auto;
+    border-radius: 6px;
+    border: solid black;
+    
+}
+input{
+    display: grid;
+    width: 80%;
+    height: 20px;
+    padding: 20px;
+    margin: 10px auto;
+    border: 3px solid rgb(79, 79, 245);
+    border-radius: 10px;
+    transition: width 2s; 
+}
+input:focus{
+    width: 90%;
+
+}
+
+#ss{
+     width: 90%;
+    background-color: rgb(190, 93, 14);
+    color: white; 
+    transition: color 2s;
+}
+#ss:hover{
+   background-color: #06c720;
+}
+.nav{
+    width: 80%;
+    margin: auto;
+}
+header{
+    background-color: #0f425f;
+   min-height: 70px ;
+   color: #fff;
+   padding: 10px; 
+   border-bottom: 3px solid #e8491d;
+   
+
+}
+
+
+header a{
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+header a:hover{
+    color: #d10e0e;
+font-weight: bold;
+}
+header ul li{
+    list-style-type: none;
+    display: inline;
+    margin-left: 20px;
+}
+h1{
+    text-align: center;
+    color: rgb(4, 62, 43);
+
+}
+body{
+    font-family: sans-serif;
+    background-color: #d5dbdb;
+   
+}
+#img{
+  margin: 10px 0px;
+  animation: filter 8s linear 2s infinite;
+}
+@keyframes filter{
+    0%{
+        filter: blur(0px);
+    }
+    25%{
+        filter:brightness(70%);
+    }
+    50%{
+        filter: contrast(180%);
+    }
+    75%{
+        filter: grayscale(100%);
+    }
+    100%{
+        filter: saturate(4);
+    }
+}
+.con{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: space-between;
+    font-size: large;
+    color: #000406;
+    
+   
+    text-align: center;
+    transition: color 2s linear 1s;
+}
+.con:hover{
+    color: #1ddd4a;
+}
+#Af{
+      text-align: center;
+      margin: 50px;
+       
+     
+}
+
+
+
+
+#ka{
+    text-align: center;
+    background-image: url(Kabul.webp);
+    opacity: 0.8;
+    border-radius: 20px;
+    margin: 10px;
+     animation: bord 2s infinite linear;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.434);
+}
+#ba{
+   text-align: center;
+    background-image: url(balkh2.webp);
+    opacity: 0.8;
+    border-radius: 20px;
+    margin: 10px;
+    animation: border 2s infinite linear;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.434);
+}
+@keyframes border{
+0%, 100%{
+    transform: translateY(0);
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.434);
+}
+50%{
+    transform: translateY(20px);
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2);
+}
+}
+#he{
+   
+     text-align: center;
+    background-image: url(Herat.jpg);
+    opacity: 0.8;
+    border-radius: 20px;
+    margin: 10px;
+     animation: bord 2s infinite linear;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.434);
+}
+@keyframes bord{
+0%, 100%{
+    transform: translateY(20px);
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.434);
+}
+50%{
+    transform: translateY(0);
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2);
+}
+}
+.im{
+    border-radius: 20px;
+    margin: 10px;
+   
+}
+
+
+.border{
+    border: dashed rgba(0, 0, 0, 0.434); 
+}
+#kabul{
+    box-shadow: 0 10px 15px rgba(14, 8, 0, 0.2);
+    transition: width 5s;
+}
+#kabul:hover{
+    width: 350px;
+}
+#herat{
+    box-shadow: 0 10px 15px rgba(12, 7, 0, 0.2);
+    transition: width 5s;
+}
+#herat:hover{
+    width: 350px;
+}
+#balkh{
+    box-shadow: 0 10px 15px rgba(20, 11, 1, 0.2);
+    transition: width 5s;
+}
+#balkh:hover{
+    width: 350px;
+}
+#kandahar{
+    box-shadow: 0 10px 15px rgba(13, 7, 0, 0.2);
+    transition: width 5s;
+}
+#kandahar:hover{
+    width: 350px;
+}
+#mazar{
+    box-shadow: 0 10px 15px rgba(20, 12, 1, 0.2);
+    transition: width 5s;
+}
+#mazar:hover{
+    width: 350px;
+}
+#bamiyan{
+    box-shadow: 0 10px 15px rgba(32, 17, 0, 0.2);
+    transition: width 5s;
+}
+#bamiyan:hover{
+    width: 350px;
+}
+
+
+
+.tr{
+    width: 100%;
+    height: 700px;
+    background: url(herat6.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+z-index: -1;
+text-align: center;
+animation: slider 10s linear 1s infinite;
+}
+@keyframes slider{
+   0%{
+       background-image: url(herat1.jpg);
+       background-size: 100% 100%;
+    }
+    25%{
+        background-image: url(herat2.jpg);
+       background-size: 100% 100%;
+    }
+    50%{
+        background-image: url(herat3.jpg);
+       background-size: 100% 100%;
+       
+    }
+    75%{
+         background-image: url(herat4.jpg);
+       background-size: 100% 100%;
+    }
+    100%{
+         background-image: url(herat5.jpg);
+       background-size: 100% 100%;
+    }  
+}
+#hc{
+    font-size: 50px;
+    text-shadow: 2px 2px 0 #d5dbdb;
+    transform: translate(10px,250px);
+   transition: color 2s linear 1s;
+   
+    
+}
+#hc:hover{
+    color:black;
+}
+p{
+    text-align: center;
+    text-shadow: 2px 2px 1px rgb(174, 171, 171);
+    color: #02121a;
+}
+#hi{
+     transition: color 2s linear 1s;
+}
+#hi:hover{
+    color:rgb(188, 15, 15);
+}
+
+
+
+
